@@ -1,2 +1,2 @@
-# Scripts
-Miscellaneous scripts
+# Utilities
+Miscellaneous scripts and utilities
