@@ -2,6 +2,11 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+alias rndstr='openssl rand -base64 20 | tr -cd "[a-zA-Z0-9]";echo'
+alias dockerkill='docker kill (docker ps -q)'
+alias myip='curl ipinfo.io/ip'
+alias ll='ls -l'
+
 function fish_prompt
 	set_color brblack
 	echo -n "["(date "+%H:%M")"] "
