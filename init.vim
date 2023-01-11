@@ -23,3 +23,10 @@ set ttyfast                 " Speed up scrolling in Vim
 " set backupdir=~/.cache/vim " Directory to store backup files.
 set undodir=~/.vimid
 set undofile
+
+" for command mode
+nnoremap <S-Tab> <<
+" for insert mode
+inoremap <S-Tab> <C-d>
+
+
