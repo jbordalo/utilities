@@ -6,6 +6,7 @@ alias rndstr='openssl rand -base64 20 | tr -cd "[a-zA-Z0-9]";echo'
 alias dockerkill='docker kill (docker ps -q)'
 alias myip='curl ipinfo.io/ip'
 alias ll='ls -l'
+alias cs='xclip -selection clipboard'
 
 function fish_prompt
 	set_color brblack
@@ -73,3 +74,8 @@ function fish_greeting
 
 	set_color normal
 end
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+eval /home/bordalo/anaconda3/bin/conda "shell.fish" "hook" $argv | source
+# <<< conda initialize <<<
+
