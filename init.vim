@@ -24,9 +24,8 @@ set ttyfast                 " Speed up scrolling in Vim
 set undodir=~/.vimid
 set undofile
 
+" shift-tab
 " for command mode
 nnoremap <S-Tab> <<
 " for insert mode
 inoremap <S-Tab> <C-d>
-
-
